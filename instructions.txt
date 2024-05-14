@@ -1,0 +1,34 @@
+apt-get install git
+sudo apt-get install git
+git
+git --version
+which git
+pwd
+
+###########
+git init
+ls -la
+cd .git
+ls
+git status
+
+#################
+
+git add .
+git status
+
+
+git config --global "floriana.gerea@atos.net"
+git config --global user.name "Floriana Gerea"
+git commit -m "first commit"
+
+git log
+git status
+ls -la
+
+########################
+
+git reset --hard bf029a4da80143680944b48048f0e3b85f205321
+git log
+
+####################3
